@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<style>
+h1 {text-align: center;}
+img {src="https://s-i.huffpost.com/gen/3735144/images/o-MENTAL-HEALTH-facebook.jpg": center;}
+</style>
+<head>
+<title>UTS Pemrograman WEB</title>
+</head>
+<head>
+  <style>
+            table,th,td{
+                border: 1px solid blue;
+                border-collapse: collapse; 
+            }
+            th{
+                text-align: center;
+                
+            }
+            tr:nth-child(even) {
+                background-color: #D6EEEE;
+            }
+            td,th{
+                padding: 10px;
+            }
+            td:nth-child(even), th:nth-child(even) {
+                
+            }
+			
+footer {
+  background-color: silver;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+    </style>
+</head>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><body>
+
+  <div class="w3-bar w3-black">
+    <a href="#" class="w3-bar-item w3-button w3-mobile w3-green">Home</a>
+    <a href="https://www.halodoc.com/kesehatan-mental" class="w3-bar-item w3-button w3-mobile">Content</a>
+    <a href="https://www.halodoc.com/?gclid=Cj0KCQiA3uGqBhDdARIsAFeJ5r1RSPV09pryBrg9eZG2SZd_d-2KEg0OG1PxFrZG_Ae1_N4TjHn3kLwaAiIjEALw_wcB" class="w3-bar-item w3-button w3-mobile">About</a>
+    <div class="w3-dropdown-hover w3-mobile">
+        <button class="w3-button">Dropdown <i class="fa fa-caret-down"></i></button>
+        <div class="w3-dropdown-content w3-bar-block w3-dark-grey">
+            <a href="https://wa.me/6283830042024" class="w3-bar-item w3-button w3-mobile">Whatsapp</a>
+            <a href="mailto:adamdicky2705@gmail.com" class="w3-bar-item w3-button w3-mobile">Email</a>
+        </div>
+    </div>
+</div>
+
+ <script>
+        // hover pada navbar
+        var navbarItems = document.querySelectorAll('.w3-bar-item');
+        navbarItems.forEach(function(item) {
+            item.addEventListener('mouseover', function() {
+                this.classList.add('w3-green');
+            });
+
+            item.addEventListener('mouseout', function() {
+                this.classList.remove('w3-green');
+            });
+        });
+
+        // hover pada dropdown
+        var dropdownHover = document.querySelector('.w3-dropdown-hover');
+        var dropdownButton = dropdownHover.querySelector('.w3-button');
+
+        dropdownHover.addEventListener('mouseover', function() {
+            dropdownButton.style.backgroundColor = '#4CAF50';
+        });
+
+        dropdownHover.addEventListener('mouseout', function() {
+            dropdownButton.style.backgroundColor = '';
+        });
+    </script>
+
+<h1>Psikologi Kesehatan</h1>
+
+<img src="https://s-i.huffpost.com/gen/3735144/images/o-MENTAL-HEALTH-facebook.jpg" alt="KESEHATAN" width="600" height="300">
+
+
+
+<p>Psikologi kesehatan adalah bidang khusus yang berfokus pada bagaimana psikologi, perilaku, dan faktor sosial dapat memengaruhi kesehatan dan penyakit pada seseorang. Istilah lainnya juga dikenal adalah psikologi medis.</p>
+<p>Perlu diketahui, kesehatan seseorang dan penyakit dipengaruhi oleh berbagai macam faktor. Meskipun suatu penyakit bersifat menular dan faktor keturunan, namun banyak faktor perilaku dan psikologis yang memengaruhi kesehatan fisik secara keseluruhan dan berbagai kondisi medis lainnya.</p>
+
+
+<h2>Hubungan Psikologi Dan Kesehatan</h2>
+<p>Bidang psikologi kesehatan berfokus pada peningkatan kesehatan, pencegahan, dan pengobatan penyakit. Psikolog kesehatan juga memiliki fokus pada pemahaman bagaimana orang bereaksi, mengatasi, dan pulih dari penyakit. Beberapa penyakit yang diidap seseorang juga berhubungan dengan faktor psikologis dan perilaku, di antaranya:</p>
+<dl>
+ <dt>- Stroke</dt>
+ <dt>- Penyakit Jantung</dt>
+ <dt>- Kanker</dt>
+ <dt>- Cacat Lahir Dan Kematian Bayi</dt>
+ <dt>- Penyakit Menular</dt>
+ </dl>
+ 
+<p>Psikologi kesehatan menekankan bagaimana perilaku memengaruhi kesehatan. Itulah alasannya psikologi kesehatan berada pada posisi yang tepat untuk membantu orang mengubah perilaku yang berkontribusi pada kesehatannya.</p>
+<p>Misalnya, psikolog kesehatan mungkin fokus melakukan penelitian mengenai bagaimana mencegah perilaku tidak sehat (misalnya merokok atau minum alkohol) dan mencari cara baru untuk mendorong orang agar berperilaku sehat seperti olahraga.</p>
+<p>Contoh lainnya ketika kamu menyadari bahwa makan makanan tinggi gula tidak baik untuk kesehatan tubuh. Namun, masih banyak orang yang terus makan atau minum kandungan tinggi gula terlepas adanya kemungkinan konsekuensi jangka pendek dan jangka panjang.</p>
+<p>Psikolog kesehatan melihat faktor psikologis yang mempengaruhi pilihan kesehatan seseorang dan mencari cara untuk memotivasi orang tersebut agar membuat pilihan kesehatan yang lebih baik.</p>
+<p>Psikologi kesehatan dimaksudkan untuk memberikan penanganan terhadap masalah kesehatan, seperti:</p>
+<table>
+ 
+ <tr>
+ <th>NO.</th>
+ <th>Contohnya</th>
+ </tr>
+ <tr>
+ <th>1</th>
+ <td>Pengurangan Stres</td>
+ </tr>
+ <tr>
+ <th>2</th>
+ <td>Managemen berat badan</td>
+ </tr>
+ <tr>
+ <th>3</th>
+ <td>Berhenti merokok</td>
+ </tr>
+ <tr>
+ <th>4</th>
+ <td>Meningkatkan nutrisi harian</td>
+ </tr>
+ <tr>
+ <th>5</th>
+ <td>Mengurangi perilaku seksual beresiko</td>
+ </tr>
+  <tr>
+ <th>6</th>
+ <td>Mencegah penyakit</td>
+ </tr>
+ <tr>
+ <th>7</th>
+ <td>Memahami efek penyakit</td>
+ </tr>
+  <tr>
+ <th>8</th>
+ <td>Meningkatkan pemulihan</td>
+ </tr>
+ <tr>
+ <th>9</th>
+ <td>Mengajarkan keterampilan pencegahan</td>
+ </tr>
+ </table>
+
+<h2>Penanganan Gangguan Kesehatan Dengan Psikologi Kesehatan</h2>
+<p>Pendekatan yang digunakan dalam psikologi kesehatan dikenal sebagai model biososial. Menurut pandangan ini, penyakit dan kesehatan adalah kombinasi antara faktor biologis, psikologis, dan sosial.</p>
+	<dl>
+	 <dt>- Faktor biologis, termasuk sifat kepribadian yang diwariskan dan kondisi genetik.</dt>
+	 <dt>- Faktor psikologis, melibatkan gaya hidup, karakteristik kepribadian, dan tingkat stres.</dt>
+	 <dt>- Faktor sosial, mencakup sistem dukungan sosial, hubungan keluarga, dan kepercayaan budaya.</dt>
+	</dl>
+	
+<p>Psikologi kesehatan adalah bidang yang terus berkembang. Semakin banyak orang yang menyadari dan berusaha untuk mengendalikan kesehatan mereka, semakin banyak orang mencari informasi dan sumber daya yang berhubungan dengan kesehatan. Psikolog kesehatan juga fokus pada mendidik seseorang mengenai kesehatan dan kesejahteraan diri sendiri.</p>
+<p>Misalnya, ketika seseorang ingin mempertahankan berat badan yang sehat, maka ia perlu belajar bagaimana mengendalikan perilaku yang berisiko pada hal yang tidak sehat. Ia juga perlu belajar mempertahankan pandangan positif agar dapat memerangi stres, depresi, dan kecemasan yang mungkin muncul selama upaya seseorang mempertahankan berat badan.</p>
+<p>Jika kamu sedang berusaha menerapkan pola hidup sehat dalam hidup atau menghadapi gangguan kesehatan lainnya, cobalah untuk berdiskusi dengan psikologi kesehatan Melalui aplikasi <a href="https://www.halodoc.com">Halodoc</a> Halodoc sebagai cara agar dapat memulai langkah yang tepat.</p>
+<p>Pada dasarnya, penyembuhan setiap penyakit juga berkaitan dengan perilaku psikologi. Dengan melakukan kombinasi pengobatan dan psikologi kesehatan dapat membantu kamu mengatasi penyakit dan mencapai tujuan kesehatan.</p>
+
+<br>
+<br>
+<form action="/action_page.php">
+  <textarea id="w3review" name="w3review" rows="4" cols="50">Tulis Komentar.</textarea>
+  <br>
+  <input type="submit" value="Coment">
+</form>
+<footer>
+<dl>
+<h4>Referensi:</h4>
+<address>
+<dt style="color:blue;">Very Well Mind. Diakses pada 2020. Studying Health Psychology and Illness</dt>
+<dt style="color:blue;">Psych Central. Diakses pada 2020. An Overview of Health Psychology</dt>
+</address>
+</dl>
+</footer>
+
+</body>
+</html>
+
+

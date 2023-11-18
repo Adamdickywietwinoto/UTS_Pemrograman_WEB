@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Contoh UTS Porto AI</title>
+</head>
+<style>
+	body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.about-section {
+    padding: 80px 20px;
+}
+
+.project-section {
+    background-color: #f4f4f4;
+    padding: 80px 20px;
+}
+
+.project-item {
+    margin-bottom: 30px;
+}
+
+.contact-section {
+    background-color: #333;
+    color: #fff;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+</style>
+
+<body>
+    <div class="hero-section" id="hero">
+        <h1>Adam Dicky Wiet Winoto</h1>
+        <p>Pemrograman WEB, Mendesain, & Editing</p>
+        <p>Selamat Datang Di Portofolio Saya</p>
+		<p>Mahasiswa Dari Politeknik Harapan Bersama Tegal</p>
+    </div>
+
+    <div class="about-section" id="about">
+        <h2>Tentang Saya</h2>
+    <p>Saya adalah seseorang yang memiliki sifat pemalu, tetapi di balik sifat itu, saya memiliki semangat untuk terus mempelajari hal-hal baru. Saya menyukai tantangan dan melihatnya sebagai kesempatan untuk tumbuh dan berkembang. Meskipun mungkin terlihat introvert, saya memiliki hasrat untuk mengeksplorasi pengetahuan baru dan mencoba hal-hal baru untuk mengembangkan diri saya.</p>
+    <h3>Kemampuan</h3>
+    <ul>
+        <li>HTML5</li>
+        <li>CSS3</li>
+        <li>Editing Foto & Video</li>
+        <li>Desain</li>
+        <li>Pemrograman WEB</li>
+    </ul>
+
+    <h3>Pengalaman</h3>
+    <p>Saya telah mengerjakan berbagai proyek, termasuk menggunakan situs web blogger dan weebly, membuat antarmuka pengguna yang menarik, dan membuat situs web. Pengalaman saya telah membekali saya dengan keterampilan pemecahan masalah dan kemampuan berkolaborasi secara efektif dengan web tersebut.</p>
+    <h3>Kesukaan</h3>
+    <p>Di luar coding, saya senang menjelajahi teknologi baru, membaca blog desain, dan menghadiri pertemuan teknologi. Saya bersemangat untuk selalu mengikuti perkembangan tren industri terkini dan terus meningkatkan keterampilan saya.</p>
+    <h3>Tujuan</h3>
+    <p>Tujuan saya adalah menciptakan pengalaman web yang bermakna dan ramah pengguna. Saya bercita-cita untuk berkontribusi pada proyek-proyek inovatif, berkolaborasi dengan para profesional yang berpikiran sama, dan terus belajar dan berkembang di bidang pengembangan dan desain web yang terus berkembang.</p>
+</div>
+
+    <div class="project-section" id="projects">
+        <h2>Proyek Saya</h2>
+        <div class="project-item">
+            <h3>Tentang Java</h3>
+			<p>Bemberikan pengertian tentang java, sejarah perkembangan, dan juga versi awal pada java.<p>
+			<a href="https://adamdicky-ti-poltektegal.blogspot.com/2019/10/java-java-bahasa-pemrograman-dapat.html" target="_blank">Lihat Proyek</a>
+        </div>
+		
+        <div class="project-item">
+            <h3>Belajar Java Dilinux</h3>
+			<p>Bemberikan cara step by step untuk cara menggunakan java pada linux.<p>
+			<a href="https://adamdickyy-ti-poltektegal.weebly.com/blog/belajar-java-di-linux" target="_blank">Lihat Proyek</a>
+        </div>
+		
+		<div class="project-item">
+            <h3>Instalasi Java</h3>
+			<p>Cara menginstal java pada windows 10 64 bit<p>
+			<a href="https://adamdickyy-ti-poltektegal.weebly.com/blog/belajar-java-di-linux" target="_blank">Lihat Proyek</a>
+        </div>
+
+
+        <h3>Artikel yang Dipublikasikan</h3>
+<div class="dropdown">
+  <button class="dropbtn">Cek Artikel</button>
+  <div class="dropdown-content">
+        </ul>
+  <a href="https://www.blogger.com/u/2/blog/post/preview/3923357652233748713/3224364879827882334" target="_blank">My Experience in Dance World</a>
+  </div>
+</div>
+
+    <div class="image-and-text">
+		<h3>Visualisasi Reprentasi Grafik</h3>
+        <img class="image" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgB5kEN5wvEXLeheJdnfi9PSbyRqkyTpJMYYTFsJ7dqYZoTEdmh13ps0iaizMC-kA5hMJLBO-g-dR23dQGEzIAUS-MtCb787ztfmvJ8ndIYJygmqgsoznYOGKg2AEo4u3SO1hF577h4-ok2IBMIXduNl6xOfIbQGkS4a3Y3snodH4nTaviS0LqQbn6p7A/w681-h285/Screenshot%20(68).png" alt="Gambar Anda">
+        <div class="text">
+		
+    </div>
+    </div>
+
+    <div class="contact-section" id="contact">
+        <h2>Kontak Saya</h2>
+        <p>Silahkan hubungi saya jika ada keperluan</p>
+        <ul>
+            <li>Email: adamdicky2705@gmail.com</li>
+            <li>Phone: 0838-3004-2024</li>
+            <li><a href="https://www.linkedin.com/in/adam-dicky-wiet-winoto-5423672a0/" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/Adamdickywietwinoto" target="_blank">GitHub</a></li>
+        </ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
